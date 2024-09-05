@@ -13,7 +13,7 @@
 │   │   └── Layout.astro
 │   └── pages/
 │       └── index.astro
-├── .eslintc.js
+├── .eslintc.cjs
 ├── .gitignore
 ├── .prettierrc
 ├── astro.config.mjs
