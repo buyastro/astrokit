@@ -1,0 +1,9 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".", // Set the base directory
+    "paths": {
+      "@components/*": ["src/components/*"]
+    }
+  }
+}
