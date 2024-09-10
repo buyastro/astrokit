@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.buyastro.website",
-  integrations: [alpinejs(), tailwind({ applyBaseStyles: false }), sitemap()],
-  output: "hybrid",
+  integrations: [alpinejs(), tailwind(), sitemap()],
+  output: "server",
   adapter: vercel(),
 });
