@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
-    "format": "prettier --write ./src"
+    "format": "prettier --write ./src",
+    "sync": "astro sync"
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.0",
